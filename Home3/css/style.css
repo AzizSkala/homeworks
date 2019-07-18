@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+body{
+	background-image: url(img/img01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: solid white 4px;
+}
+p{font-style: italic;
+font-weight: bold;}
+.emphasize{text-decoration: underline;}
+.text{text-decoration: overline;}
+h2{border-style: solid;
+}
+.layer1 {
+    position: relative;
+    background: #f0f0f0;
+    height: 200px;}
+.layer2 {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    line-height: 1px;
+}
